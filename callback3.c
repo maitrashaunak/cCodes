@@ -7,8 +7,8 @@
 #include <stdio.h>
 
 
- typedef struct Laptop lap;    /* Forward declaration */
- typedef enum colour col;       /* Forward declaration */
+ typedef struct Laptop lap;    /* Forward declaration with one object in needed */
+ typedef enum colour col;       /* Forward declaration with one object in needed*/
 
 typedef void (*changebrand) (lap *lt, char *brand);
 typedef void (*changecolour) (lap *lt,col color);
