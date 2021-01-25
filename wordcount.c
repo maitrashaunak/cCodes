@@ -26,6 +26,7 @@ int main()
 
         }
     }
+    
 
     printf("No of chars: %d\n",nc);
     printf("No of words: %d\n",nw);
