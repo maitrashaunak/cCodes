@@ -7,8 +7,8 @@ int getLine(char *s, int limit){
         s[i] = c;
     }
     if(c=='\n'){
-        s[i] = c;
-        i++;
+        s[i++] = c;
+        
     }
     s[i] = '\0';
 
