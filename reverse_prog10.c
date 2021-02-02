@@ -17,6 +17,8 @@ char  *reverse(char s[])
 int main(void)
 {
     char s[20] = "Hello World";
-    printf("Reverse of Hello World is: %s\n",reverse(s));
+    printf("Reverse of %s is ",s);
+    printf(reverse(s));
+    printf("\n");
     return 0;
 }
